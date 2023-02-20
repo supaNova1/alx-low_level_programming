@@ -12,8 +12,10 @@ int y;
 for (y = 0; y <= 9; y++)
 {
 putchar('0' + y);
-putchar(',')
-putchar(' ')
+if (y == 9)
+break;
+putchar(',');
+putchar(' ');
 }
 putchar('\n');
 return (0);
