@@ -1,22 +1,20 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - Prints the word _putchar
- *
- * Return: 0 Success
- */
-
+ * main - print _putchar
+ * @c: print _putchar to stdout
+ * Return: 0
+*/
 int main(void)
 {
-	char word[8] = "_putchar";
-	int i;
-
-	for (i = 0; i <= 7; i++)
-	{
-		putchar(word[i]);
-	}
-
-	putchar('\n');
-
-	return (0);
+  _putchar('_');
+  _putchar('p');
+  _putchar('u');
+  _putchar('t');
+  _putchar('c');
+  _putchar('h');
+  _putchar('a');
+  _putchar('r');
+  _putchar('\n');
+  return (0);
+  
 }
