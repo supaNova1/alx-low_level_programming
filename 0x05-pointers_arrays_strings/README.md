@@ -1,0 +1,1 @@
+This project is about arrays and strings and data structures in c programming
