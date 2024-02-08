@@ -2,6 +2,7 @@
 #include "main.h"
 
 /**
+ *binary_to_unit - converts binary value in string to decimal.
  *unsigned int binary_to_unit(const char *b)
  *@b: pointer to a string containing the binary number.
  *
