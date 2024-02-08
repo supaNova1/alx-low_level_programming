@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *binary_to unit - converts a binary number to unsigned interger number.
+ *unsigned int binary_to_unit(const char *b)
  *@b: pointer to a string containing the binary number.
  *
  *Return: unsigned integer with decimal number of binary value or 0 if error.
