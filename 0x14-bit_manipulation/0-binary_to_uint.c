@@ -10,7 +10,7 @@
  */
 unsigned int binary_to_unit(const char *b)
 {
-	inti;
+	int i;
 	unsigned int number;
 
 	number = 0;
