@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *_power - calculates base  power
+ * _power - calculates  base  power
  * @base: base of the exponent.
  * @power: power of the exponent.
  *
@@ -31,7 +31,7 @@ void print_binary(unsigned long int n)
 	char f;
 
 	f = 0;
-	d = _pow(2, sizeof(unsigned long int) * 8 - 1);
+	d = _power(2, sizeof(unsigned long int) * 8 - 1);
 	while (d != 0)
 	{
 		c = n & d;
