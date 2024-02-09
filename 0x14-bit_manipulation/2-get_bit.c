@@ -15,7 +15,7 @@ int get_bit(unsigned long int num, unsigned int index)
 	if (index > (sizeof(unsigned long int) * 8 - 1))
 		return (-1);
 	divide = 1 << index;
-	check = num & divisor;
+	check = num & divide;
 	if (check == divide)
 		return (1);
 	return (0);
