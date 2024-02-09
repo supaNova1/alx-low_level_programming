@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
- *binary_to_unit - converts binary value in string to decimal.
- *unsigned int binary_to_unit(const char *b)
+ *binary_to_uint - converts binary value in string to decimal.
+ *unsigned int binary_to_uint(const char *b)
  *@b: pointer to a string containing the binary number.
  *
  *Return: unsigned integer with decimal number of binary value or 0 if error.
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	int i;
 	unsigned int number;
